@@ -20,6 +20,7 @@ export default function Context() {
         <img
           className="abuNews-bg"
           src="https://media.discordapp.net/attachments/1139426470901600336/1139594744276725800/keteranganNews.png?width=888&height=192"
+          alt="abuNews-bg"
         />
       </div>
     </div>

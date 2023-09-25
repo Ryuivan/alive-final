@@ -1,0 +1,321 @@
+@import url("https://fonts.cdnfonts.com/css/montserrat");
+.noisyFlow {
+  background-image: url(https://cdn.discordapp.com/attachments/1135510437790765076/1137243441160527932/wuqcXY47QILbgAAAABJRU5ErkJggg.png);
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+}
+
+.backgroundFlow {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background: rgb(206, 108, 81);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(206, 108, 81, 1) 0%,
+    rgba(166, 88, 83, 1) 56%,
+    rgba(206, 108, 81, 1) 95%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(206, 108, 81, 1) 0%,
+    rgba(166, 88, 83, 1) 56%,
+    rgba(206, 108, 81, 1) 95%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(206, 108, 81, 1) 0%,
+    rgba(166, 88, 83, 1) 56%,
+    rgba(206, 108, 81, 1) 95%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ce6c51",endColorstr="#ce6c51",GradientType=1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-bottom: 0;
+  /* outline: 90px solid black; */
+  border-radius: 100px;
+}
+
+.BottomSectionFlow {
+  padding-bottom: 100px;
+}
+/* vertical ruler + text */
+.timelineFlow {
+  padding-top: 20px;
+  position: relative;
+  max-width: 100%;
+}
+
+/* vertical ruler */
+.timelineFlow::after {
+  content: "";
+  position: absolute;
+  width: 12px;
+  background-color: #f9ecdc;
+  top: 200px;
+  bottom: 180px;
+  left: 30%;
+}
+
+/* Container buat teks */
+.containerFlow {
+  padding: 10px 40px;
+  position: relative;
+  width: 50%;
+  background-color: inherit;
+}
+
+/* styling circle */
+.containerFlow::after {
+  content: "";
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  background-color: #c06750;
+  border: 15px solid #f9ecdc;
+  top: 35px;
+  border-radius: 50%;
+  z-index: 1;
+}
+/* posisi circle + teks */
+.rightFlow {
+  left: 30%;
+}
+
+/* posisi circle doang */
+.rightFlow::after {
+  top: 170px;
+  left: -32px;
+}
+
+/* posisi teks */
+.contentFlow {
+  position: relative;
+  margin-left: 50px;
+  margin-top: -15px;
+  width: 600px;
+}
+
+.JudulRangkaianFlow {
+  width: 100%;
+  font-family: "Montserrat";
+  font-size: 96px;
+  text-align: left;
+  font-weight: bolder;
+  color: white;
+}
+.contentTglRangkaianFlow {
+  text-align: right;
+  margin-top: -40px;
+  margin-left: -100px;
+}
+.TanggalRangkaianFlow {
+  background-color: white;
+  display: flex;
+  width: 366px;
+  height: 76px;
+  border-radius: 107px;
+  margin-top: -30px;
+  display: inline-block;
+  color: #cd6d53;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2px;
+}
+
+@media (max-width: 1100px) {
+  .noisyFlow {
+    border-radius: 60px;
+  }
+  .backgroundFlow {
+    border-radius: 60px;
+  }
+  /* vertical ruler + text */
+  .timelineFlow {
+    padding-top: 20px;
+    position: relative;
+    max-width: 100%;
+  }
+
+  /* vertical ruler */
+  .timelineFlow::after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    background-color: #f9ecdc;
+    top: 150px;
+    bottom: 160px;
+    left: 28.5%;
+  }
+
+  /* Container buat teks */
+  .containerFlow{
+    padding: 10px 40px;
+    position: relative;
+    width: 50%;
+    background-color: inherit;
+  }
+
+  /* styling circle */
+  .containerFlow::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: #c06750;
+    border: 8px solid #f9ecdc;
+    top: 35px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  /* posisi circle + teks */
+  .rightFlow {
+    left: 30%;
+  }
+
+  /* posisi circle doang */
+  .rightFlow::after {
+    top: 100px;
+    left: -32px;
+  }
+
+  /* posisi teks */
+  .contentFlow {
+    position: relative;
+    margin-left: 20px;
+    margin-top: -15px;
+    width: 350px;
+    /* background-color: green; */
+  }
+
+  .JudulRangkaianFlow {
+    width: 100%;
+    font-family: "Montserrat";
+    font-size: 56px;
+    text-align: left;
+    font-weight: bolder;
+    color: white;
+  }
+  .contentTglRangkaianFlow {
+    text-align: right;
+    margin-top: -40px;
+    margin-left: -100px;
+  }
+  .TanggalRangkaianFlow {
+    background-color: white;
+    display: flex;
+    width: 200px;
+    height: 46px;
+    border-radius: 107px;
+    margin-top: -30px;
+    display: inline-block;
+    color: #cd6d53;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2px;
+  }
+}
+@media (max-width: 600px) {
+  .noisyFlow {
+    border-radius: 30px;
+  }
+  .backgroundFlow {
+    border-radius: 30px;
+    height: 100vh;
+  }
+  /* vertical ruler + text */
+  .timelineFlow {
+    padding-top: 30px;
+    position: relative;
+    max-width: 100%;
+  }
+
+  /* vertical ruler */
+  .timelineFlow::after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    background-color: #f9ecdc;
+    top: 100px;
+    bottom: 170px;
+    left: 32%;
+  }
+
+  /* Container buat teks */
+  .containerFlow {
+    padding: 45px 20px;
+    position: relative;
+    width: 50%;
+    background-color: inherit;
+  }
+
+  /* styling circle */
+  .containerFlow::after {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #c06750;
+    border: 4px solid #f9ecdc;
+    top: 35px;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  /* posisi circle + teks */
+  .rightFlow {
+    left: 35%;
+  }
+
+  /* posisi circle doang */
+  .rightFlow::after {
+    top: 65px;
+    left: -10%;
+  }
+
+  /* posisi teks */
+  .contentFlow {
+    position: relative;
+    margin-left: 1px;
+    margin-top: -15px;
+    width: 150px;
+    /* background-color: green; */
+  }
+
+  .JudulRangkaianFlow {
+    width: 100%;
+    font-family: "Montserrat";
+    font-size: 20px;
+    text-align: left;
+    font-weight: bolder;
+    color: white;
+  }
+  .contentTglRangkaianFlow {
+    text-align: right;
+    margin-top: -10px;
+    margin-left: -100px;
+  }
+  .TanggalRangkaianFlow {
+    background-color: white;
+    display: flex;
+    width: 100px;
+    height: 23px;
+    border-radius: 107px;
+    margin-top: 0px;
+    display: inline-block;
+    color: #cd6d53;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 2px;
+  }
+}

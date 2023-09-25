@@ -28,12 +28,12 @@ export default function Sidebar() {
         <div className="sidebar-logo d-flex justify-content-start align-items-center">
           <Link to="/">
             <img
-              src="https://cdn.discordapp.com/attachments/1135924428300099595/1135924968241250464/image.png"
+              src="https://cdn.discordapp.com/attachments/1135924428300099595/1155554694186414231/logoMedic.webp"
               alt="logo-medic"
               className="nav-logo"
             />
             <img
-              src="https://cdn.discordapp.com/attachments/1135924428300099595/1135925130900545546/image.png"
+              src="https://cdn.discordapp.com/attachments/1135924428300099595/1155554695352430714/logoAlive.webp"
               alt="logo-alive"
               className="nav-logo2"
             />
@@ -42,18 +42,18 @@ export default function Sidebar() {
         <div className="d-flex justify-content-end align-items-center">
           {screenWidth < 768 ? (
             <img
-              src="https://cdn.discordapp.com/attachments/1135924428300099595/1135967189917249577/image.png"
+              src="https://cdn.discordapp.com/attachments/1135924428300099595/1155554694559715338/arrowThick.webp"
               alt="nav-arrow"
               className="nav-arrow"
             />
           ) : (
             <img
-              src="https://cdn.discordapp.com/attachments/1135924428300099595/1135925201960452126/image.png"
+              src="https://cdn.discordapp.com/attachments/1135924428300099595/1155554694979141662/arrowThin.webp"
               alt="nav-arrow"
               className="nav-arrow"
             />
           )}
-          <Link className="menu-bars menu-click">
+          <Link className="menu-bars menu-click" to="#" aria-label="Open sidebar">
             <FaIcons.FaBars onClick={showSidebar} />
           </Link>
         </div>

@@ -8,23 +8,25 @@ export default function App() {
         <div className="flex-footer container-footer relative-footer">
           <img
             className="star-mobile-footer star-mobile2-footer absolute-footer"
-            src="https://cdn.discordapp.com/attachments/1135510437790765076/1142438349903253514/image.png"
+            src="https://cdn.discordapp.com/attachments/1135510437790765076/1155558912758653009/starMobile.webp"
+            alt="star-mobile"
           />
           <img
             className="logo-footer"
-            src="https://cdn.discordapp.com/attachments/1135510437790765076/1137004841609216093/LOGO_ALIVE_9.png"
-            alt=""
+            src="https://cdn.discordapp.com/attachments/1135510437790765076/1155558914121801798/logoAlive.webp"
+            alt="logo-footer"
           />
           <div className="relative-footer flex-footer content-footer">
             <span className="register-now-footer relative-footer">
               <img
                 className="logo-mobile-footer"
-                src="https://cdn.discordapp.com/attachments/1135510437790765076/1137004841609216093/LOGO_ALIVE_9.png"
-                alt=""
+                src="https://cdn.discordapp.com/attachments/1135510437790765076/1155558914121801798/logoAlive.webp"
+                alt="logo-mobile-footer"
               />
               <img
                 className="absolute-footer star-footer"
-                src="https://cdn.discordapp.com/attachments/1135510437790765076/1142438349903253514/image.png"
+                src="https://cdn.discordapp.com/attachments/1135510437790765076/1155558914553811075/star.webp"
+                alt="star-footer"
               />
               <div className="registerNow">
                 <span>REGISTER</span>
@@ -49,11 +51,13 @@ export default function App() {
         <div className="sponsor-section"></div>
         <img
           className="wave-footer absolute-footer"
-          src="https://cdn.discordapp.com/attachments/1135510437790765076/1142437616516616323/image.png"
+          src="https://cdn.discordapp.com/attachments/1135510437790765076/1155558913211633694/wave.webp"
+          alt="wave-footer"
         />
         <img
           className="wave-mobile-footer absolute-footer"
-          src="https://cdn.discordapp.com/attachments/1135510437790765076/1142441694940385310/image.png"
+          src="https://cdn.discordapp.com/attachments/1135510437790765076/1155558913756905533/waveMobile.webp"
+          alt="wave-mobile-footer"
         />
       </footer>
     </div>

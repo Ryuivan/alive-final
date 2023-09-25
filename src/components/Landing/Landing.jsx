@@ -60,7 +60,7 @@ export default function Landing() {
           <Col lg={7} className="pt-5 alive-img">
             <div className="alive-title">
               <img
-                src="https://cdn.discordapp.com/attachments/1135924428300099595/1149184066697056256/image.png"
+                src="https://cdn.discordapp.com/attachments/1135924428300099595/1155568797860773918/landingTitleSmall.webp"
                 alt="alive-title"
                 className="alive-title-img"
               />
@@ -109,12 +109,12 @@ export default function Landing() {
             {screenWidth <= 600 && (
               <div className="stars">
                 <img
-                  src="https://cdn.discordapp.com/attachments/1135924428300099595/1137036383257632798/image.png"
+                  src="https://cdn.discordapp.com/attachments/1135924428300099595/1155552885799657492/starLeft.webp"
                   alt="star-left"
                   className="star-left"
                 />
                 <img
-                  src="https://cdn.discordapp.com/attachments/1135924428300099595/1137036323253919794/image.png"
+                  src="https://cdn.discordapp.com/attachments/1135924428300099595/1155552886349119558/starRight.webp"
                   alt="star-right"
                   className="star-right"
                 />

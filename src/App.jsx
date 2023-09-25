@@ -8,6 +8,7 @@ import Flow from "./pages/Flow";
 import NotFound from "./pages/NotFound";
 import About from "./pages/About";
 import Pleno1 from "./components/Gallery/Pleno1";
+import Pleno2 from "./components/Gallery/Pleno2";
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <Route exact path="/flow" element={<Flow />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/pleno-1" element={<Pleno1 />} />
+        <Route exact path="/pleno-2" element={<Pleno2 />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

@@ -7,7 +7,7 @@ export default function News() {
       <Row className="news-container m-0 gx-5">
         <Col lg={6} className="d-flex align-items-center">
           <img
-            src="https://cdn.discordapp.com/attachments/1139426470901600336/1149185396723433572/image.png"
+            src="https://cdn.discordapp.com/attachments/1139426470901600336/1155567151999090741/newsLogoSmall.webp"
             alt="news-logo"
             className="news-logo"
           />
@@ -20,7 +20,7 @@ export default function News() {
               back regularly for all the exciting news and behind-the-scenes
               insights. Don't miss a thing!
               <img
-                src="https://cdn.discordapp.com/attachments/1139426470901600336/1145373587671367800/image.png"
+                src="https://cdn.discordapp.com/attachments/1139426470901600336/1155555480853295114/newsStar.webp"
                 alt="news-star"
                 className="news-star"
               />

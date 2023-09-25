@@ -5,10 +5,18 @@ import { Link } from "react-router-dom";
 const gallery = [
   {
     id: 1,
-    name: "pleno-1", 
-    url: "https://cdn.discordapp.com/attachments/1138154440512241845/1138154911096385576/PLENO_1_FINAL-2.jpg",
+    name: "pleno-1",
+    url: "https://cdn.discordapp.com/attachments/1138154440512241845/1155557081567469569/PLENO_1_FINAL-2.webp",
     alt: "Photo Rapat Pleno 1",
     title: "PLENO 1",
+    date: "2 JUNI 2023",
+  },
+  {
+    id: 2,
+    name: "pleno-2",
+    url: "https://cdn.discordapp.com/attachments/1138154440512241845/1155557082125307984/PLENO_2.webp",
+    alt: "Photo Rapat Pleno 2",
+    title: "PLENO 2",
     date: "27 JULI 2023",
   },
 ];
@@ -20,23 +28,24 @@ const Gallery = () => {
         <h1>Gallery</h1>
       </div>
       <div className="gallery-width">
-      <div className="gallery-card-container">
-        {gallery.map((card) => (
-          <Link
-            to={`/${card.name}`}
-            style={{ textDecoration: "none" }}
-            key={card.id}
-          >
-            <div className="gallery-card-gallery">
-              <div className="gallery-card-gallery-image">
-                <img src={card.url} alt={card.alt} />
+        <div className="gallery-card-container">
+          {gallery.map((card) => (
+            <Link
+              to={`/${card.name}`}
+              style={{ textDecoration: "none" }}
+              key={card.id}
+            >
+              <div className="gallery-card-gallery">
+                <div className="gallery-card-gallery-image">
+                  <img src={card.url} alt={card.alt} />
+                </div>
+                <h1>{card.title}</h1>
+                <h2>{card.date}</h2>
               </div>
-              <h1>{card.title}</h1>
-              <h2>{card.date}</h2>
-            </div>
-          </Link>
-        ))}
-      </div></div>
+            </Link>
+          ))}
+        </div>
+      </div>
       <div className="gallery-wave">
         <div className="wave1"></div>
       </div>
