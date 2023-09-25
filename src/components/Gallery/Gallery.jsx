@@ -6,7 +6,7 @@ const gallery = [
   {
     id: 1,
     name: "pleno-1",
-    url: "https://cdn.discordapp.com/attachments/1138154440512241845/1155557081567469569/PLENO_1_FINAL-2.webp",
+    url: "https://cdn.discordapp.com/attachments/1138154440512241845/1155754400892059738/PLENO_1_small.webp",
     alt: "Photo Rapat Pleno 1",
     title: "PLENO 1",
     date: "2 JUNI 2023",
@@ -14,14 +14,14 @@ const gallery = [
   {
     id: 2,
     name: "pleno-2",
-    url: "https://cdn.discordapp.com/attachments/1138154440512241845/1155557082125307984/PLENO_2.webp",
+    url: "https://cdn.discordapp.com/attachments/1138154440512241845/1155754400543940629/PLENO_2_small.webp",
     alt: "Photo Rapat Pleno 2",
     title: "PLENO 2",
     date: "27 JULI 2023",
   },
 ];
 
-const Gallery = () => {
+export default function Gallery() {
   return (
     <section className="gallery-card-section" id="gallery">
       <div className="gallery-card-title">
@@ -53,4 +53,3 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;
