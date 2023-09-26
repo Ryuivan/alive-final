@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Modal from "./Modal";
 
 const gallery1 = [
   {
@@ -65,6 +66,7 @@ const Pleno2 = () => {
     setCurrentIndex(index);
     setClickedImg(item.link);
   };
+
   return (
     <div className="gallery-bg-image">
       <div className="gallery-bg-wave-top">

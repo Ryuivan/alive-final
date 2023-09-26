@@ -1,23 +1,19 @@
-const Modal = ({
-    clickedImg,
-    setClickedImg
-  }) => {
-    const handleClick = (e) => {
-      if (e.target.classList.contains("dismiss")) {
-        setClickedImg(null);
-      }
-    };
-  
-    return (
-      <>
-        <div className="overlay dismiss" onClick={handleClick}>
-          <img src={clickedImg} alt="bigger pic" />
-          <span className="dismiss" onClick={handleClick}>
-            X
-          </span>
-        </div>
-      </>
-    );
+import { RxCross2 } from "react-icons/rx";
+
+export default function Modal({ clickedImg, setClickedImg }) {
+  const handleClick = (e) => {
+    setClickedImg(null);
   };
-  
-  export default Modal;
+
+  return (
+    <>
+      <div className="overlay" onClick={handleClick}>
+        <img src={clickedImg} alt={clickedImg} />
+        <span onClick={handleClick}>
+          <RxCross2 onClick={handleClick} />
+        </span>
+      </div>
+    </>
+  );
+};
+
