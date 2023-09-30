@@ -1,0 +1,35 @@
+.flow-timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 100px auto;
+}
+
+.flow-container {
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.flow-text {
+    padding: 20px 30px;
+    background: #fff;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.flow-circle {
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: -20px;
+    top: 32px;
+    z-index: 10;
+    border-radius: 50%;
+}
+
+.flow-right {
+    left: 50%;
+}

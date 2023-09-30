@@ -11,7 +11,7 @@ export default function FlowRangkaian() {
                 <p>HEALTH CHECK UP</p>
               </div>
               <div className="contentTglRangkaianFlow">
-                <div className="TanggalRangkaianaFlow">
+                <div className="TanggalRangkaianFlow">
                   <p>31 Oktober 2023</p>
                 </div>
               </div>

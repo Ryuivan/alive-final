@@ -81,7 +81,7 @@ const Gallery = () => {
           <h1>Pleno 1</h1>
           <h3>27 JULI 2023</h3>
         </div>
-        <div className="gallery-row">
+        <div className="gallery-row mx-auto">
           <div className="gallery-column">
             {gallery1.map((item, index) => (
               <img

@@ -148,6 +148,10 @@ footer div {
   cursor: pointer;
 }
 
+.registerNow span:nth-child(2) {
+  margin-top: -25px;
+}
+
 @media (min-width: 1020px) {
   .registerNow {
     font-size: 60px;

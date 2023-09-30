@@ -5,7 +5,7 @@ import Tagline from "../components/AboutTagline/Tagline";
 
 export default function About() {
   return (
-    <div id="about-background">
+    <div id="about-bg">
       <AboutHeroTop />
       <Tagline />
       <AboutHeroBot />

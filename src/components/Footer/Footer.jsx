@@ -28,9 +28,8 @@ export default function App() {
                 src="https://cdn.discordapp.com/attachments/1135510437790765076/1155558914553811075/star.webp"
                 alt="star-footer"
               />
-              <div className="registerNow">
+              <div className="registerNow d-flex flex-column">
                 <span>REGISTER</span>
-                <br />
                 <span>NOW!</span>
               </div>
             </span>

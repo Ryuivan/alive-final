@@ -1,10 +1,9 @@
-@import url("https://fonts.cdnfonts.com/css/montserrat");
-.noisyFlow {
+/* .noisyFlow {
   background-image: url(https://cdn.discordapp.com/attachments/1135510437790765076/1137243441160527932/wuqcXY47QILbgAAAABJRU5ErkJggg.png);
   width: 100%;
   height: 100%;
   border-radius: 100px;
-}
+} */
 
 .backgroundFlow {
   height: 100%;
@@ -34,8 +33,6 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   padding-bottom: 0;
-  /* outline: 90px solid black; */
-  border-radius: 100px;
 }
 
 .BottomSectionFlow {
@@ -43,7 +40,7 @@
 }
 /* vertical ruler + text */
 .timelineFlow {
-  padding-top: 20px;
+  padding-top: 10px;
   position: relative;
   max-width: 100%;
 }
@@ -53,10 +50,10 @@
   content: "";
   position: absolute;
   width: 12px;
+  height: 820px;
   background-color: #f9ecdc;
-  top: 200px;
-  bottom: 180px;
-  left: 30%;
+  top: 120px;
+  left: 463px;
 }
 
 /* Container buat teks */
@@ -64,6 +61,7 @@
   padding: 10px 40px;
   position: relative;
   width: 50%;
+  margin-bottom: 100px;
   background-color: inherit;
 }
 
@@ -74,20 +72,20 @@
   width: 45px;
   height: 45px;
   background-color: #c06750;
-  border: 15px solid #f9ecdc;
-  top: 35px;
+  border: 9px solid #f9ecdc;
   border-radius: 50%;
   z-index: 1;
 }
 /* posisi circle + teks */
 .rightFlow {
-  left: 30%;
+  bottom: 30%;
+  left: 452px;
 }
 
 /* posisi circle doang */
 .rightFlow::after {
-  top: 170px;
-  left: -32px;
+  top: 90px;
+  left: -5px;
 }
 
 /* posisi teks */
@@ -100,24 +98,25 @@
 
 .JudulRangkaianFlow {
   width: 100%;
-  font-family: "Montserrat";
+  font-style: "Montserrat";
   font-size: 96px;
   text-align: left;
   font-weight: bolder;
   color: white;
+  line-height: normal;
 }
 .contentTglRangkaianFlow {
   text-align: right;
-  margin-top: -40px;
+  margin-top:-40px;
   margin-left: -100px;
 }
 .TanggalRangkaianFlow {
   background-color: white;
   display: flex;
   width: 366px;
-  height: 76px;
+  height: 66px;
   border-radius: 107px;
-  margin-top: -30px;
+  margin-top: 20px;
   display: inline-block;
   color: #cd6d53;
   text-align: center;
@@ -125,9 +124,15 @@
   font-size: 35px;
   font-style: normal;
   font-weight: 600;
-  line-height: 2px;
+  /* line-height: -2px; */
 }
 
+@media (max-width: 1400px) {
+  .rightFlow::after {
+    top: 170px;
+    left: calc(-10% + 40px);
+  }
+}
 @media (max-width: 1100px) {
   .noisyFlow {
     border-radius: 60px;
@@ -154,7 +159,7 @@
   }
 
   /* Container buat teks */
-  .containerFlow{
+  .containerFlow {
     padding: 10px 40px;
     position: relative;
     width: 50%;
@@ -181,7 +186,7 @@
   /* posisi circle doang */
   .rightFlow::after {
     top: 100px;
-    left: -32px;
+    left: calc(-10% + 25px);
   }
 
   /* posisi teks */
