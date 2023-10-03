@@ -157,6 +157,7 @@
 @media (max-width: 665px) {
   .about-middle {
     height: 500px;
+  border: 10px solid #ee8215;
   }
 }
 

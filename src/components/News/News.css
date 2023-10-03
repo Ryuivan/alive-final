@@ -11,12 +11,12 @@
   align-items: center;
 }
 
-
 .news-container {
   display: flex;
   justify-content: center;
   align-items: center;
   max-width: 1200px;
+  background-image: url("../../../Group\ 51.png");
 }
 
 .news-logo {

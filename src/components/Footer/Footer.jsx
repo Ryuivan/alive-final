@@ -1,7 +1,7 @@
 import "./Footer.css";
 import { FaInstagram } from "react-icons/fa";
 
-export default function App() {
+export default function Footer() {
   return (
     <div id="contact">
       <footer className="bg-footer relative-footer flex-footer">
@@ -28,7 +28,7 @@ export default function App() {
                 src="https://cdn.discordapp.com/attachments/1135510437790765076/1155558914553811075/star.webp"
                 alt="star-footer"
               />
-              <div className="registerNow d-flex flex-column">
+              <div className="register-now-footer d-flex flex-column">
                 <span>REGISTER</span>
                 <span>NOW!</span>
               </div>
