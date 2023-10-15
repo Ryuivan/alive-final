@@ -7,7 +7,7 @@
 }
 
 .gallery-width {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -54,10 +54,20 @@
   border-radius: 50px 50px 0 0;
 }
 
-.gallery-card-gallery-image img {
+.gallery-card-gallery-image .gallery-card-gallery-image-pleno1 {
   width: auto;
   height: 380px;
   margin-left: -65px;
+}
+.gallery-card-gallery-image .gallery-card-gallery-image-pleno2 {
+  width: auto;
+  height: 380px;
+  margin-left: -65px;
+}
+.gallery-card-gallery-image .gallery-card-gallery-image-pleno3 {
+  width: auto;
+  height: 450px;
+  margin-top: -70px;
 }
 
 .gallery-card-gallery h1,

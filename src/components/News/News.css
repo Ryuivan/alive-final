@@ -2,13 +2,33 @@
   height: auto;
   width: 100vw;
   padding: 70px 50px 100px 50px;
-  background: #838530;
+  background-color: #838530;
+  /* background: url("https://cdn.discordapp.com/attachments/1138154440512241845/1161153904801751091/image.png?ex=653743d8&is=6524ced8&hm=fca7ae7c01c0867d96d7655849c62d458816fc9f3838c657a4a0b0458e2fc6f5&"); */
   background-blend-mode: difference;
   box-shadow: inset -103px -56px 170px rgba(0, 0, 0, 0.25),
     inset 11px 50px 127px rgba(0, 0, 0, 0.25);
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.left-news {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  filter: grayscale(100%);
+  z-index: 0;
+  opacity: 70%;
+}
+
+.right-news {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  filter: grayscale(100%);
+  z-index: 0;
+  opacity: 70%;
 }
 
 .news-container {
@@ -16,11 +36,11 @@
   justify-content: center;
   align-items: center;
   max-width: 1200px;
-  background-image: url("../../../Group\ 51.png");
 }
 
 .news-logo {
   width: 100%;
+  z-index: 1;
 }
 
 .news-desc p {
@@ -46,6 +66,13 @@
 
   .news-desc p {
     margin-top: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .left-news, 
+  .right-news {
+    display: none;
   }
 }
 
