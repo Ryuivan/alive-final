@@ -92,6 +92,11 @@
   height: 60px;
 }
 
+.nav-text span {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 700;
+}
+
 .nav-text a {
   text-decoration: none;
   color: #FFF2E3 !important;

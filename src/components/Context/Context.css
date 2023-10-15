@@ -1,16 +1,17 @@
 .putihNews-bg {
-  background-image: url("https://media.discordapp.net/attachments/1139426470901600336/1139428451330302074/putihNews-bg.webp?width=840&height=426");
-  height: 600px;
+  background-color: rgba(0, 0, 0, 0.2);
+  /* filter: blur(2px); */
+  /* background-image: url("https://media.discordapp.net/attachments/1139426470901600336/1139428451330302074/putihNews-bg.webp?width=840&height=426"); */
   display: block;
+  /* height: 1920px; */
   width: 100vw;
-  position: relative;
+  /* position: relative; */
   overflow: hidden;
 }
 
 .abuNews-bg {
-  width: 100vw;
-  position: absolute;
-  bottom: 0;
+  width: 540px;
+  height: auto;
   z-index: 1;
 }
 
@@ -30,4 +31,11 @@
   font-weight: 700;
   color: white;
   word-spacing: 55px;
+}
+
+@media (max-width: 540px) {
+  .abuNews-bg {
+    width: 100%;
+    height: auto;
+  }
 }

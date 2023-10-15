@@ -51,7 +51,7 @@
   content: "";
   position: absolute;
   width: 12px;
-  height: 820px;
+  height: 810px;
   background-color: #f9ecdc;
   top: 110px;
   left: 40%;
@@ -93,7 +93,7 @@
 /* posisi teks */
 .contentFlow {
   position: relative;
-  margin-left: 50px;
+  margin-left: 45px;
   margin-top: -15px;
   width: 600px;
 }
@@ -101,34 +101,39 @@
 .JudulRangkaianFlow {
   width: 100%;
   font-style: "Montserrat";
-  font-size: 96px;
+  font-size: 82px;
   text-align: left;
   font-weight: bolder;
   color: white;
   line-height: normal;
 }
 
+
 .contentTglRangkaianFlow {
   text-align: right;
-  margin-top: -40px;
-  margin-left: -100px;
+  /* margin-top: -40px; */
+  /* margin-left: -100px; */
 }
 
 .TanggalRangkaianFlow {
   background-color: white;
   display: flex;
-  width: 366px;
-  height: 66px;
-  border-radius: 107px;
-  margin-top: 20px;
+  width: 450px;
+  /* height: 66px; */
+  border-radius: 20px;
+  /* margin-top: 20px; */
   display: inline-block;
   color: #cd6d53;
   text-align: center;
-  font-family: Montserrat;
-  font-size: 35px;
   font-style: normal;
-  font-weight: 600;
   /* line-height: -2px; */
+}
+
+.TanggalRangkaianFlow p {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
 }
 
 @media (max-width: 1400px) {
@@ -150,7 +155,7 @@
     content: "";
     position: absolute;
     width: 8px;
-    height: 550px;
+    height: 580px;
     background-color: #f9ecdc;
     top: 120px;
     bottom: 160px;
@@ -214,16 +219,12 @@
   }
 
   .TanggalRangkaianFlow {
-    background-color: white;
-    display: flex;
-    width: 200px;
-    height: 40px;
-    border-radius: 107px;
+    width: 320px;
     margin-top: 30px;
-    display: inline-block;
-    color: #cd6d53;
-    text-align: center;
-    font-family: Montserrat;
+    border-radius: 15px;
+  }
+
+  .TanggalRangkaianFlow p {
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -249,7 +250,7 @@
     content: "";
     position: absolute;
     width: 5px;
-    height: 430px;
+    height: 460px;
     background-color: #f9ecdc;
     top: 110px;
     bottom: 190px;
@@ -307,21 +308,16 @@
 
   .contentTglRangkaianFlow {
     text-align: right;
-    margin-top: -30px;
-    margin-left: -100px;
   }
 
   .TanggalRangkaianFlow {
     background-color: white;
-    display: flex;
-    width: 160px;
-    height: 30px;
-    border-radius: 107px;
+    width: 200px;
+    border-radius: 10px;
     margin-top: 30px;
-    display: inline-block;
-    color: #cd6d53;
-    text-align: center;
-    font-family: Montserrat;
+  }
+
+  .TanggalRangkaianFlow p {
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -335,6 +331,10 @@
 }
 
 @media (max-width: 425px) {
+  .TanggalRangkaianFlow {
+    width: 190px;
+  }
+
   .contentFlow {
     position: relative;
     margin-left: 0;
@@ -345,6 +345,6 @@
   .timelineFlow::after {
     top: 110px;
     left: 27.5%;
-    height: 435px;
+    height: 470px;
   }
 }

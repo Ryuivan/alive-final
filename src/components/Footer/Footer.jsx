@@ -1,5 +1,5 @@
 import "./Footer.css";
-import { FaInstagram } from "react-icons/fa";
+import { FaInstagram, FaLine } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -43,6 +43,14 @@ export default function Footer() {
               >
                 <FaInstagram />
                 &nbsp;alivemedic.umn
+              </a>
+              <a
+                href="http://line.me/ti/p/~christineangela03"
+                target="_blank"
+                className="instagram d-flex align-items-center"
+              >
+                <FaLine />
+                &nbsp;christineangela03
               </a>
             </div>
           </div>
