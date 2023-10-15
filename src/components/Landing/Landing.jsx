@@ -116,12 +116,15 @@ export default function Landing() {
         </Col>
       </Row>
       <div className="register-container d-flex justify-content-center align-items-center">
-        <Link to="https://forms.gle/jNLuabsAJbwHtYA37" target="_blank">
+        <Link 
+          to="/" 
+          // target="_blank"
+        >
           <button
             to="https://forms.gle/jNLuabsAJbwHtYA37"
             className="register-btn d-flex justify-content-center align-items-center"
           >
-            REGISTER NOW
+            DAFTAR DI KONEKTOR GEDUNG C DAN D
           </button>
         </Link>
       </div>
