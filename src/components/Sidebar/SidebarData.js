@@ -1,9 +1,9 @@
 export const SidebarData = [
-  {
-    title: "REGISTER",
-    path: "https://forms.gle/jNLuabsAJbwHtYA37",
-    cName: "nav-text nav-text-big",
-  },
+  // {
+  //   title: "REGISTER",
+  //   path: "https://forms.gle/jNLuabsAJbwHtYA37",
+  //   cName: "nav-text nav-text-big",
+  // },
   {
     title: "HOME",
     path: "/",

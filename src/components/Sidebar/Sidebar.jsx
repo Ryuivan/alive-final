@@ -80,7 +80,7 @@ export default function Sidebar() {
                     <span>{item.title}</span>
                   </LinkB>
                 ) : (
-                  <Link to="/">
+                  <Link to="/" style={{display: "none"}}>
                     <span>{item.title}</span>
                   </Link>
                 )
