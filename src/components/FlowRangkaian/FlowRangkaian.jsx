@@ -26,7 +26,7 @@ export default function FlowRangkaian() {
               </div>
               <div className="contentTglRangkaianFlow">
                 <div className="TanggalRangkaianFlow">
-                  <p>2 November 2023 <br /> <FaLocationDot /> Student Lounge 2, D15</p>
+                  <p>10 November 2023 <br /> <FaLocationDot /> Student Lounge 2, D15</p>
                 </div>
               </div>
             </div>
@@ -40,7 +40,7 @@ export default function FlowRangkaian() {
                 </div>
                 <div className="contentTglRangkaianFlow">
                   <div className="TanggalRangkaianFlow">
-                    <p>8 November 2023 <br /> <FaLocationDot /> Lecture Theater, D1</p>
+                    <p>15 November 2023 <br /> <FaLocationDot /> Lecture Theater, D1</p>
                   </div>
                 </div>
               </div>

@@ -5,14 +5,14 @@ export default function AboutHero() {
   return (
     <div className="about-alive-top">
       <Row className="gutter">
-        <Col xl={6} className="about-alive-container">
+        <Col xxl={6} className="about-alive-container">
           <img
             src="https://cdn.discordapp.com/attachments/1138141319181631518/1142429823306842132/image.png"
             alt="about-alive-img"
             className="about-alive-top-img"
           />
         </Col>
-        <Col xl={6} className="about-text">
+        <Col xxl={6} className="about-text">
           <div className="about-title">
             <h5>WHAT IS IT?</h5>
           </div>
