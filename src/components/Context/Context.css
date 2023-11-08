@@ -9,8 +9,8 @@
   overflow: hidden;
 }
 
-.abuNews-bg {
-  width: 540px;
+.spandukNews, .posterNews {
+  width: 100vw;
   height: auto;
   z-index: 1;
 }
