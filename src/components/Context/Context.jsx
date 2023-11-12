@@ -20,13 +20,13 @@ export default function Context() {
         {screenWidth > 991 ? (
           <img
             className="spandukNews"
-            src="https://cdn.discordapp.com/attachments/1163153427833036931/1171673259117395999/2_Banner.Workout.png"
+            src="https://cdn.discordapp.com/attachments/1163153427833036931/1172931171194257418/3_Banner.Talkshow.png"
             alt="spandukNews"
           />
         ) : (
           <img
             className="posterNews"
-            src="https://cdn.discordapp.com/attachments/1163153427833036931/1171677794598670417/A3_Workshop.png" 
+            src="https://cdn.discordapp.com/attachments/1163153427833036931/1172931173316558978/3_Poster_Igs.Talkshow.png" 
             alt="posterNews" 
           />
         )}

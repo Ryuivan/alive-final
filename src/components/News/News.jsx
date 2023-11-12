@@ -25,10 +25,11 @@ export default function News() {
         <Col lg={6} className="d-flex align-items-center">
           <div className="news-desc">
             <p>
-              Workout Bareng Yuk! Workshop Workout ini akan dipandu oleh Coach
-              Nisa yang merupakan APKI Certified Fitness Trainer. Terlebih lagi
-              kalian bisa mendapatkan cek body composition gratis dan +1 SKKM
-              Minat dan Bakat serta ada hadiah menarik bagi yang beruntung.
+              Talkshow ALIVE 9.0 akan mengangkat tema “Food n Body: Exploring
+              the World of Nutrition for a Healthy and Balanced Lifestyle”
+              bersama dengan ahli gizi profesional, Mochammad Rizal S.Gz, Ms,
+              yang memiliki segudang pengalaman dalam dunia nutrisi terutama
+              bagi atlet.
               <img
                 src="https://cdn.discordapp.com/attachments/1139426470901600336/1155555480853295114/newsStar.webp"
                 alt="news-star"

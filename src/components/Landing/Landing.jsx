@@ -13,7 +13,7 @@ export default function Landing() {
   let interval = useRef();
 
   const startTimer = () => {
-    const countdownDate = new Date("November 10, 2023 00:00:00").getTime();
+    const countdownDate = new Date("November 15, 2023 18:00:00").getTime();
 
     interval.current = setInterval(() => {
       const now = new Date().getTime();
@@ -69,7 +69,7 @@ export default function Landing() {
         <Col lg={5} className="pt-5 countdown">
           <div className="timer-container d-flex flex-column p-5">
             <h3 className="countdown-title">
-              WORKOUT WORKSHOP
+              TALKSHOW NUTRIENT FOOD
             </h3>
             <div className="countdown-text">
               <h3>COUNTDOWN</h3>
