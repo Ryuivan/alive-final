@@ -101,6 +101,7 @@ footer div {
 
 .bg-footer .flex-footer {
   display: flex;
+  justify-content: center;
 }
 
 .container-footer {
@@ -108,6 +109,10 @@ footer div {
   justify-content: center;
   align-items: center;
   width: 100%;
+}
+
+.images-medpar:nth-child(1) {
+  width: 20%;
 }
 
 .content-footer {
@@ -122,11 +127,62 @@ footer div {
   font-weight: 800;
 }
 
-.sponsor-section {
+.sponsor-section-medpar-section {
   text-align: center;
-  width: fit-content;
-  margin-top: 15rem;
+  margin-top: 0;
   font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.sponsor-section {
+  width: 100%;
+}
+
+.sponsor-section h1,
+.medpar-section h1 {
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 50px;
+  font-weight: 700;
+}
+
+.sponsor-section img {
+  margin: 0 20px 10px 20px;
+}
+
+.medpar-section {
+  margin: 50px 0 10rem 0;
+  width: 100%;
+}
+
+.images-medpar:nth-child(1) {
+  width: 20%;
+}
+
+.images-medpar:nth-child(2) {
+  width: 10%;
+}
+.images-medpar:nth-child(3) {
+  width: 10%;
+}
+.images-medpar:nth-child(4) {
+  width: 10%;
+}
+.images-medpar:nth-child(5) {
+  width: 10%;
+}
+.images-medpar:nth-child(6) {
+  width: 10%;
+}
+.images-medpar:nth-child(7) {
+  width: 10%;
+}
+.images-medpar:nth-child(8) {
+  width: 10%;
+}
+
+.medpar-section img {
+  margin: 0 20px 10px 20px;
 }
 
 .instagram {
@@ -152,6 +208,12 @@ footer div {
 @media (max-width: 510px) {
   .register-now-footer {
     font-size: 30px;
+  }
+}
+
+@media (min-width: 830px) {
+  .star-mobile-footer {
+    display: block;
   }
 }
 
@@ -181,15 +243,16 @@ footer div {
     top: -10%;
     left: 53%;
   }
-  
+
   .instagram {
     justify-content: center;
   }
 
-  .sponsor-section {
+  .sponsor-section-medpar-section {
     text-align: center;
     width: fit-content;
-    margin-top: 25rem;
+    /* margin-top: 25rem; */
+    margin-bottom: 25rem;
     font-size: 1.5rem;
   }
 }
@@ -197,8 +260,8 @@ footer div {
 @media only screen and (min-width: 1300px) {
   .bg-footer {
     min-height: fit-content;
-    flex-direction: row;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
   }
 
   .contact-footer {
