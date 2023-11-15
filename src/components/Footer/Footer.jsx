@@ -130,7 +130,7 @@ export default function Footer() {
         </div>
         <div
           className="sponsor-section-medpar-section"
-          style={{ marginTop: "50px" }}
+          style={{ marginTop: "100px" }}
         >
           <div className="sponsor-section">
             <div>
